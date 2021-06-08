@@ -1,5 +1,6 @@
-# tomcat-war-deployment-CI-CD-using-Docker
+# tomcat-war-deployment-using-Docker
 
+<BR/>
 This repository will run a java application in a tomcat container using Jenkins and Docker
 Step 1 : Installed Docker on EC2 machine <br />
 Step 2 : Copy sample.war file to the machine using the curl command `curl https://tomcat.apache.org/tomcat-8.5-doc/appdev/sample/sample.war --output sample.war` <br />
