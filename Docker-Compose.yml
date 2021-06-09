@@ -1,10 +1,8 @@
-version: '3.3'
+   version: '3.7'
 services:
-      web:
-        image: tomcat
-    volumes:
-      - ./target/LoginWebApp-1.war:/usr/local/tomcat/webapps/LoginWebApp-1.war
+  web:
+    image: tomcat
     ports:
-      - '8080:8080'
-   volumes:
-    db_vol: 
+      - "8000:80"
+    volumes:
+      - ./app:/usr/share/tomcat/html
